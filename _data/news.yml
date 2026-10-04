@@ -1,13 +1,13 @@
 # Newest first. Each item: date (YYYY-MM-DD; only month and year are shown) and description (HTML allowed).
 - date: 2026-09-24
-  description: "My paper 'Towards Reliable LLM Evaluation: Correcting the Winner's Curse in Adaptive Benchmarking' was accepted at NeurIPS 2026."
+  description: "Our paper 'Towards Reliable LLM Evaluation: Correcting the Winner's Curse in Adaptive Benchmarking' was accepted at NeurIPS 2026."
 - date: 2026-07-26
-  description: "My paper 'Hierarchical Causal Structure Discovery from Layered Topological Orderings' was published in the International Journal of Data Science and Analytics."
+  description: "Our paper 'Hierarchical Causal Structure Discovery from Layered Topological Orderings' was published in the International Journal of Data Science and Analytics."
 - date: 2026-04-30
   description: "Two papers accepted at ICML 2026, including 'Root Cause Analysis of Failures in Microservices via Bayesian Root Cause Discovery' as a spotlight."
 - date: 2025-09-18
-  description: "My paper 'Characterization and Learning of Causal Graphs from Hard Interventions' was accepted at NeurIPS 2025."
+  description: "Our paper 'Characterization and Learning of Causal Graphs from Hard Interventions' was accepted at NeurIPS 2025."
 - date: 2025-08-15
   description: "I moved to the Department of Computer Science at Johns Hopkins University with my advisor, Prof. Murat Kocaoglu."
 - date: 2024-09-25
-  description: "My paper 'Sample Efficient Bayesian Learning of Causal Graphs from Interventions' was accepted at NeurIPS 2024."
+  description: "Our paper 'Sample Efficient Bayesian Learning of Causal Graphs from Interventions' was accepted at NeurIPS 2024."
