@@ -1,0 +1,16 @@
+{% assign pubs = site.publications | sort: "date" | reverse %}
+<ul class="pub-list">
+{% for pub in pubs %}
+  <li>
+    <strong>{{ pub.title }}</strong><br />
+    {{ pub.authors | replace: "Z. Zhou", "<strong>Z. Zhou</strong>" }}. <em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}.
+    {% if pub.paperurl %}<a href="{{ pub.paperurl }}">[paper]</a>{% endif %}
+    {% if pub.codeurl %}<a href="{{ pub.codeurl }}">[code]</a>{% endif %}
+    {% if pub.slidesurl %}<a href="{{ pub.slidesurl }}">[slides]</a>{% endif %}
+    {% if pub.posterurl %}<a href="{{ pub.posterurl }}">[poster]</a>{% endif %}
+    {% if pub.videourl %}<a href="{{ pub.videourl }}">[video]</a>{% endif %}
+    {% if pub.bibtexurl %}<a href="{{ pub.bibtexurl }}">[bibtex]</a>{% endif %}
+    {% if pub.spotlight %}<span class="paper-badge">⭐ {{ pub.spotlight_text | default: "Spotlight Paper" }}</span>{% endif %}
+  </li>
+{% endfor %}
+</ul>
