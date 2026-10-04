@@ -8,6 +8,5 @@ main:
   - title: "Publications"
     url: /publications/
 
-  # Replace with /files/zihan_zhou_cv.pdf once the PDF is added to the files/ folder
   - title: "CV"
-    url: https://drive.google.com/file/d/14Rm9xXWKsJO4clUcr-MFR7Wn_4hvfbsA/view?usp=drive_link
+    url: /files/zihan_zhou_cv.pdf
